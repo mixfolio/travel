@@ -54,7 +54,6 @@ body {
 /* Header styles start */
 
 .header {
-    background: #000;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,3 +90,15 @@ body {
 .header__link:hover, .header__link:active, .header__link:focus {
     opacity: .75;
 }
+
+/* Header styles end */
+
+
+/* Intro styles start */
+
+.intro {
+    height: 100vh;
+    background-image: url(../img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+/* Intro styles end */
