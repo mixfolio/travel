@@ -24,21 +24,57 @@
     src: local('Lato Black'), local('Lato-Black'),
          url('../fonts/lato-v16-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/lato-v16-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+}
 
-  html {
-      box-sizing: border-box;
-  }
+html {
+    box-sizing: border-box;
+}
 
-  *, *::before, *::after {
-      box-sizing: inherit;
-  }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 
-  .wrapper {
-      max-width: 1060px;
-      margin: 0 auto;
-  }
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
 
-  .header{
-      background: #000;
-  }
+.header{
+    background: #000;
+}
+
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.header__item {
+    margin-right: 82px;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
