@@ -98,7 +98,7 @@ body {
 
 .intro {
     height: 100vh;
-    background-image: url(../img/intro-bg.jpg) no-repeat center;
+    background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
 }
 /* Intro styles end */
